@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Livros</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Catálogo de Livros</h1>
+
+        <div id="form-container">
+            <input type="text" id="title" placeholder="Título do Livro">
+            <input type="text" id="author" placeholder="Autor">
+            <input type="number" id="pages" placeholder="Número de Páginas">
+            <input type="text" id="publisher" placeholder="Editora">
+            <button id="add-book">Adicionar Livro</button>
+        </div>
+
+        <div id="books-list">
+            <h2>Livros Cadastrados</h2>
+            <ul id="book-list"></ul>
+        </div>
+    </div>
+
+    <script src="src/app.js"></script>
+</body>
+</html>
 
